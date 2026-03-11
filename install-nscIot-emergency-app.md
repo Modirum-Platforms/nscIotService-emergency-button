@@ -5,7 +5,7 @@ Installation instruction for "NSC-IOT Emergency button" Python app.
 ### Prerequisites:
 
 - [x] Raspberry Pi 4 with 4GB RAM
-- [x] [nscIotService](https://github.com/NSION/nscIotService-docker/blob/main/Installation-nscIotService.md) is installed
+- [x] [nscIotService](https://github.com/modirum-platforms/nscIotService-docker/blob/main/Installation-nscIotService.md) is installed
 - [x] Python3 installed on RPi. (enabled by default in RPi OS specific distros)
 
 ### Install Raspberry python development specific tools and libraries:
@@ -48,7 +48,7 @@ Installation instruction for "NSC-IOT Emergency button" Python app.
    
    ```text
    cd~
-   git clone https://github.com/NSION/nscIotService-emergency-button.git 
+   git clone https://github.com/modirum-platforms/nscIotService-emergency-button.git 
    ```
    Grant execute permission for shell scripts:
    ```text
