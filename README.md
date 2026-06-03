@@ -3,12 +3,12 @@
 
 This software repository is intended to familiarize usage of the nscIotService API services. As an example functionality is to route analog button signal input to the nscIotService API. The example implementation is based on Raspberry Pi 4 platform [GPIO pinouts](https://www.raspberrypi.org/documentation/usage/gpio/) and an application is programmed by Python3 language. All of the components are running on Raspberry Pi 4 computer. Reference app is assuming that Switch button is connected via GPIO pinouts to (3.3v) pin and RPi GPIO layout setup is [BCM](https://pinout.xyz/).
 
-SW Deployment specific repository of [nscIotService-docker](https://github.com/NSION/nscIotService-docker). Covering instruction to install nscIotService into Raspberry Pi 4 platform.
+SW Deployment specific repository of [nscIotService-docker](https://github.com/Modirum-Platforms/nscIotService-docker). Covering instruction to install nscIotService into Raspberry Pi 4 platform.
 ## Workflow: GPIO pinouts to API
-<img src="https://github.com/NSION/nscIotService-emergency-button/blob/main/nscIotService-API-example1.png" width="800" height="480">
+<img src="https://github.com/Modirum-Platforms/nscIotService-emergency-button/blob/main/nscIotService-API-example1.png" width="800" height="480">
 
 ### API Reference implementation "nsc-emergency-button.py" application
-- [Installation instructions of "nsc-emergency-button" application](https://github.com/NSION/nscIotService-emergency-button/blob/main/install-nscIot-emergency-app.md)
+- [Installation instructions of "nsc-emergency-button" application](https://github.com/Modirum-Platforms/nscIotService-emergency-button/blob/main/install-nscIot-emergency-app.md)
 
 ## API specifications:
 ### NSC3 IOT client API specification:
